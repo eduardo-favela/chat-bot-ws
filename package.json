@@ -1,0 +1,26 @@
+{
+  "name": "botwhatsapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-modules app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "chalk": "^4.1.2",
+    "cors": "^2.8.5",
+    "exceljs": "^4.3.0",
+    "express": "^4.17.2",
+    "mime-db": "^1.51.0",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.15",
+    "ora": "^5.4.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.15.6"
+  }
+}
